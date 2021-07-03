@@ -17,11 +17,16 @@
 # Inherit from lithium device
 $(call inherit-product, device/xiaomi/lithium/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1080
+
+#GApps
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_lithium
+PRODUCT_NAME := aosp_lithium
 PRODUCT_DEVICE := lithium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI MIX

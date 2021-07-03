@@ -17,5 +17,7 @@
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.qfp=false \
+    qemu.hw.mainkeys=0 \
     ro.hardware.fingerprint=fpc \
+    ro.sf.lcd_density=360 \
     sys.fpc.tu.disabled=0
