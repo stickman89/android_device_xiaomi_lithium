@@ -18,6 +18,8 @@
 
 DEVICE_PATH := device/xiaomi/lithium
 
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lithium
 
