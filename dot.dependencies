@@ -1,14 +1,20 @@
 [
   {
-    "repository":  "android_device_xiaomi_msm8996-common",
-    "target_path": "device/xiaomi/msm8996-common"
+    "remote":       "github",
+    "repository":  "lithium-4-4-project/android_device_xiaomi_msm8996-common",
+    "target_path": "device/xiaomi/msm8996-common",
+    "branch":       "eleven"
   },
   {
-    "repository":  "android_kernel_xiaomi_msm8996",
-    "target_path": "kernel/xiaomi/msm8996"
+    "remote":       "github",
+    "repository":  "lithium-4-4-project/msm-4.4",
+    "target_path": "kernel/xiaomi/msm8996",
+    "branch":       "eleven"
   },
   {
-    "repository":  "proprietary_vendor_xiaomi_lithium",
-    "target_path": "vendor/xiaomi"
+    "remote":       "github",
+    "repository":  "lithium-4-4-project/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch":       "eleven"
   }
 ]
