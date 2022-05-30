@@ -1,9 +1,9 @@
 [
   {
     "remote":       "github",
-    "repository":  "lithium-4-4-project/android_device_xiaomi_msm8996-common",
+    "repository":  "stickman89/android_device_xiaomi_msm8996-common",
     "target_path": "device/xiaomi/msm8996-common",
-    "branch":       "eleven"
+    "branch":       "dotOS-eleven"
   },
   {
     "remote":       "github",
